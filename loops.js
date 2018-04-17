@@ -6,7 +6,7 @@ function forLoop(arr) {
     } else if (i === 0){
       console.log("List zero");
     } else {
-      item.push(`I am ${i} strange loops.`);
+      item.push(`I am parseInt(${1} + 1) strange loops.`);
     }
   }
   return item;
