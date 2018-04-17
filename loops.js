@@ -9,4 +9,5 @@ function forLoop(arr) {
       item = item.push(`I am ${i} strange loops.`);
     }
   }
+  return item;
 }
