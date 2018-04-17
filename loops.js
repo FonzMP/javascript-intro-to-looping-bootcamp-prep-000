@@ -29,4 +29,5 @@ function doWhileLoop(array) {
       console.log(array);
     }
   } while (maybeTrue());
+  return array;
 }
