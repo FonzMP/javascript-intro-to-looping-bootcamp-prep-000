@@ -3,7 +3,6 @@ function forLoop(arr) {
   for (let i = 0; i < 25; i++) {
     if(i === 1) {
       current = item.push('I am 1 strange loop.');
-      item.push(current);
       print(current);
     } else {
       current = item.push(`I am ${i} strange loops.`);
