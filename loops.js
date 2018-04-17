@@ -4,7 +4,7 @@ function forLoop(arr) {
     if (i === 1) {
       item.push("I am 1 strange loop.");
     } else {
-      item.push(`I am ${i} strange loops.`);
+      item.push(`I am ` + parseInt(${i}) + 1 + ` strange loops.`);
     }
   }
   return item;
