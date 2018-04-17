@@ -1,4 +1,5 @@
 function forLoop(arr) {
+  let item  = arr;
   const item = new Array();
   for (let i = 0; i < 25; i++) {
     if (i === 1) {
