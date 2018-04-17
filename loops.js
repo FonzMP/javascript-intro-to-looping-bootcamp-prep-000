@@ -5,7 +5,8 @@ function forLoop(arr) {
       greeting = item.push('I am 1 strange loop.');
       item.push(greeting);
       return greeting;
+    } else {
+      console.log(`I am ${i} strange loops.`);
     }
-    console.log(`I am ${i} strange loops.`);
   }
 }
