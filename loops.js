@@ -8,6 +8,7 @@ function forLoop(arr) {
     } else {
       current = item.push(`I am ${i} strange loops.`);
       print(current);
+      return current;
     }
   }
   return item;
