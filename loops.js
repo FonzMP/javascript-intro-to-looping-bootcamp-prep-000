@@ -12,6 +12,8 @@ function forLoop(array) {
   return item;
 }
 
+forLoop(taco);
+
 function whileLoop(num){
   while (num > 0) {
     console.log(num);
