@@ -1,5 +1,3 @@
-let taco = [];
-
 function forLoop(array) {
   let item = array;
   for (let i = 0; i < 25; i++) {
@@ -11,8 +9,6 @@ function forLoop(array) {
   }
   return item;
 }
-
-forLoop(taco);
 
 function whileLoop(num){
   while (num > 0) {
